@@ -1,3 +1,13 @@
+/* Patreon section */
+"SkipLogInAlert" = "Suppress login reminder";
+"Log-inViaPatreon" = "Log-in via Patreon";
+"ManageAccount" = "Manage account";
+"AccessDenied" = "Access denied";
+"LogOut" = "Log out";
+"LogOutTitle" = "Log out";
+"LogOutMessage" = "Are you sure you want to continue?";
+"FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active Patreon subscription.";
+
 /* Main section */
 "Main" = "メイン";
 "Search" = "Search";
@@ -240,6 +250,8 @@
 "PreserveSpeedDesc" = "ジェスチャー終了後も調整された再生速度を維持します。";
 "SeekAnywhere" = "スワイプでシーク";
 "SeekAnywhereDesc" = "左右にスワイプして再生シークを制御できるようにします。";
+"SeekAnywhereFeed" = "Seek in feed player";
+"SeekAnywhereFeedDesc" = "Swipe left or right on feed videos to seek.";
 "SeekMethod" = "シーク方法";
 "SeekMethodDesc" = "独立型: 動画の全期間にわたって自由に高速スクロールできます。シーク感度のみが適用されます。\n\n期間ベース: スクロールの強度は動画の長さとシーク感度に依存します。長い動画で大きなセクションをスクロールするのを防ぐのに便利です。";
 "Independent" = "独立型";
@@ -394,6 +406,9 @@
 
 "StartupAnimation" = "起動時のアニメーションを有効化";
 "StartupAnimationDesc" = "YouTube 起動時の読み込みアニメーションを有効化します。";
+"SelectCustomAnimation" = "Select custom animation";
+"VideoTooLong" = "Video must not exceed 10 seconds";
+"MediaNotFound" = "Media not found";
 
 "InterfaceStyle" = "インターフェースのスタイル";
 
@@ -452,6 +467,7 @@
 "SegmentSkipAudioDesc" = "セグメントをスキップした際にオーディオ通知を再生します。";
 "DurationWithoutSegments" = "新しい動画時間を表示";
 "DurationWithoutSegmentsDesc" = "セグメント除いた合計の動画時間を表示します。";
+"MinimumSkipDuration" = "Minimum duration to skip";
 "SkipAlertDuration" = "[スキップ] ボタンを表示する時間";
 "UnskipAlertDuration" = "[スキップしない] ボタンを表示する時間";
 
@@ -579,7 +595,6 @@
 "Polish" = "ポーランド語";
 
 "OpenSourceLibs" = "オープンソースライブラリ";
-"SupporterWall" = "支援者";
 
 "Preferences" = "%@ 設定";
 "ManagePreferences" = "設定の管理";

@@ -1,3 +1,13 @@
+/* Patreon section */
+"SkipLogInAlert" = "Suppress login reminder";
+"Log-inViaPatreon" = "Log-in via Patreon";
+"ManageAccount" = "Manage account";
+"AccessDenied" = "Access denied";
+"LogOut" = "Log out";
+"LogOutTitle" = "Log out";
+"LogOutMessage" = "Are you sure you want to continue?";
+"FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active Patreon subscription.";
+
 /* Main section */
 "Main" = "Main";
 "Search" = "Search";
@@ -240,6 +250,8 @@
 "PreserveSpeedDesc" = "Locks at adjusted speed after gesture completion.";
 "SeekAnywhere" = "Swipe to seek";
 "SeekAnywhereDesc" = "Allows controlling playback seeking by swiping left and right.";
+"SeekAnywhereFeed" = "Seek in feed player";
+"SeekAnywhereFeedDesc" = "Swipe left or right on feed videos to seek.";
 "SeekMethod" = "Seek method";
 "SeekMethodDesc" = "Independent: Free fast scrolling across the entire video duration. Only the seek sensitivity is respected.\n\nDuration-based: The scrolling strength will depend on the length of the video and the seek sensitivity. This can be useful for long videos to prevent scrolling through large sections of the video.";
 "Independent" = "Independent";
@@ -394,6 +406,9 @@
 
 "StartupAnimation" = "Startup animation";
 "StartupAnimationDesc" = "Displays YouTube startup loading animation.";
+"SelectCustomAnimation" = "Select custom animation";
+"VideoTooLong" = "Video must not exceed 10 seconds";
+"MediaNotFound" = "Media not found";
 
 "InterfaceStyle" = "Interface style";
 
@@ -452,6 +467,7 @@
 "SegmentSkipAudioDesc" = "Plays an audio notification when skipping a segment.";
 "DurationWithoutSegments" = "Display new duration";
 "DurationWithoutSegmentsDesc" = "Displays total duration without segments.";
+"MinimumSkipDuration" = "Minimum duration to skip";
 "SkipAlertDuration" = "Skip alert duration";
 "UnskipAlertDuration" = "Unskip alert duration";
 
@@ -579,7 +595,6 @@
 "Polish" = "Polish localization";
 
 "OpenSourceLibs" = "Open source libraries";
-"SupporterWall" = "Supporters";
 
 "Preferences" = "%@ preferences";
 "ManagePreferences" = "Preferences management";
@@ -702,7 +717,7 @@
 "Welcome.Content" = "Adjust Interface";
 "Welcome.ContentDesc" = "Remove unwanted content and interface elements. Enable true OLED dark mode";
 "Welcome.Player" = "Setup Player Behavior";
-"Welcome.PlayerDesc" = "Сustomize the player's behavior, auto-select quality and playback speed. Control using gestures";
+"Welcome.PlayerDesc" = "Customize the player's behavior, auto-select quality and playback speed. Control using gestures";
 "Welcome.More" = "And even more...";
 "Welcome.MoreDesc" = "YouTube Plus includes over 50 different options, including features like saving preferences and clearing cache. Settings are available in the YouTube Plus section under YouTube settings";
 "SupportMe" = "Support me";

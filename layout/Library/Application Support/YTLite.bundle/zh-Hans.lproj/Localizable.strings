@@ -1,3 +1,13 @@
+/* Patreon section */
+"SkipLogInAlert" = "Suppress login reminder";
+"Log-inViaPatreon" = "Log-in via Patreon";
+"ManageAccount" = "Manage account";
+"AccessDenied" = "Access denied";
+"LogOut" = "Log out";
+"LogOutTitle" = "Log out";
+"LogOutMessage" = "Are you sure you want to continue?";
+"FeaturesNotActivated" = "You are not logged in. To access YouTube Plus features, please log in with an active Patreon subscription.";
+
 /* Main section */
 "Main" = "主功能";
 "Search" = "Search";
@@ -240,6 +250,8 @@
 "PreserveSpeedDesc" = "手势完成后保持调整后的速度。";
 "SeekAnywhere" = "滑动控制进度";
 "SeekAnywhereDesc" = "允许通过左右滑动来控制播放进度。";
+"SeekAnywhereFeed" = "Seek in feed player";
+"SeekAnywhereFeedDesc" = "Swipe left or right on feed videos to seek.";
 "SeekMethod" = "进度方式";
 "SeekMethodDesc" = "独立：在整个视频时长内自由快速拖动进度，仅考虑进度灵敏度。\n\n基于视频时长：拖动进度取决于视频的长度和进度灵敏度。这对于长视频非常有用，可以防止滚动浏览视频的大部分内容。";
 "Independent" = "独立";
@@ -394,6 +406,9 @@
 
 "StartupAnimation" = "启动动画";
 "StartupAnimationDesc" = "显示 YouTube 启动加载动画。";
+"SelectCustomAnimation" = "Select custom animation";
+"VideoTooLong" = "Video must not exceed 10 seconds";
+"MediaNotFound" = "Media not found";
 
 "InterfaceStyle" = "界面样式";
 
@@ -452,6 +467,7 @@
 "SegmentSkipAudioDesc" = "跳过某个片段时播放音频通知。";
 "DurationWithoutSegments" = "显示新的持续时间";
 "DurationWithoutSegmentsDesc" = "显示不包含片段的总时长。";
+"MinimumSkipDuration" = "Minimum duration to skip";
 "SkipAlertDuration" = "跳过警报持续时间";
 "UnskipAlertDuration" = "取消跳过警报持续时间";
 
@@ -579,7 +595,6 @@
 "Polish" = "波兰语本地化";
 
 "OpenSourceLibs" = "开源库";
-"SupporterWall" = "支持者";
 
 "Preferences" = "%@ 配置";
 "ManagePreferences" = "配置管理";
@@ -715,19 +730,3 @@
 "Conflicts.CloseYT" = "关闭 YouTube";
 
 "DonationReminder" = "您的支持能让 YouTube Plus 变得更好。\n\n您可以在 YouTube Plus 设置中选择捐赠或选择关闭这些通知。谢谢💜";
-
-/* Old localizations (commented out for reference)
-"ExtraSpeedOptions" = "扩展速度选项";
-"ExtraSpeedOptionsDesc" = "在播放器菜单中添加更多视频播放速度的选项。";
-"CastingErrorTitle" = "Wait a minute...";
-"CastingErrorMessage" = "You're most likely seeing this because your certificate doesn't have Multicast permission.";
-"CastingAction" = "Settings";
-"OpenSettings" = "Open settings";
-"WhatIsMulticast?" = "What is Multicast?";
-"NoYTLogo" = "移除“YouTube”Logo";
-"NoYTLogoDesc" = "移除导航栏中的“YouTube”Logo。";
-"PremiumYTLogo" = "设置“Premium”Logo";
-"PremiumYTLogoDesc" = "在导航栏中设置“Premium”Logo。";
-"SpeedLocation" = "激活位置";
-"TabIsHidden" = "无法选择隐藏标签页作为启动页。";
-"TabIsStartupTab" = "选定为“启动页”的标签页无法隐藏";
